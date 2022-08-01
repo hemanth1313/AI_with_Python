@@ -36,7 +36,33 @@ else:
 lst = [1,5,6,7]
 for i in range(len(lst)):
     print(lst[i],end ="")
-
+print("\n")
 for j in range (0,10):
     print ( j, end = "")
-    B
+print("\n")
+
+#repeat code for while loops 
+m=5
+i=0
+while i < m:    
+    print(i,end = " ")
+    i =i + 1  
+print("\n End")    
+
+# For break
+
+for i in range(10):
+    print(i,end=" ")
+
+    if i == 5:
+        print("\n Break applied")
+        break
+print(" Outside loop")    
+print("\n")
+
+# Continue
+
+for var in "Python world":
+    if var== "w":
+        continue
+    print(var)
